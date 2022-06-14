@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "iUqC4S3yAtAxo3j+wzeFVVrwjPha+hwSo75V5K2hxoWUfZrxekNQojyb7IL62OASicISZgX/Vfn2+hIP5eI75w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noras\\Desktop\\ENI\\Xamarin\\Demo_TP\\VideoXamarin\\VideoXamarin\\VideoXamarin.iOS\\VideoXamarin.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\noras\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\noras\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\noras\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
