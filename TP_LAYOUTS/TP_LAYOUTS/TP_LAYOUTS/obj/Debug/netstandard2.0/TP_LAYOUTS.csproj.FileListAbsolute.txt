@@ -1,0 +1,15 @@
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\bin\Debug\netstandard2.0\TP_LAYOUTS.deps.json
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\bin\Debug\netstandard2.0\TP_LAYOUTS.dll
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\bin\Debug\netstandard2.0\TP_LAYOUTS.pdb
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\TP_LAYOUTS.csproj.AssemblyReference.cache
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\TP_LAYOUTS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\TP_LAYOUTS.AssemblyInfoInputs.cache
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\TP_LAYOUTS.AssemblyInfo.cs
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\TP_LAYOUTS.csproj.CoreCompileInputs.cache
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\TP_LAYOUTS.dll
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\refint\TP_LAYOUTS.dll
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\TP_LAYOUTS.pdb
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS\obj\Debug\netstandard2.0\ref\TP_LAYOUTS.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "oCl26O5/PrQNqaAV1Hqm1CfwjHh8G605HiPQ/lm0J/vUQDaIFnSPZtoP4oklQWelfkpjNsVH4UJ11FZEk8NDOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noras\\Desktop\\ENI\\Xamarin\\Demo_TP\\TP_LAYOUTS\\TP_LAYOUTS\\TP_LAYOUTS.iOS\\TP_LAYOUTS.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\noras\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\noras\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\noras\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
