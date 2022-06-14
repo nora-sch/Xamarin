@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TP_LAYOUTS.MainPage"
              BackgroundColor="White">
+    
     <StackLayout Orientation="Vertical">
+        
         <ContentView BackgroundColor="#58B0F0">
             <StackLayout  Orientation="Horizontal" Margin="10, 25">
                 <Label Text="Nouveau" TextColor="White" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"></Label>
@@ -13,8 +15,43 @@
         </ContentView>
        
         <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            
+            <!-- CARD -->
+            <StackLayout Orientation="Vertical">
+                
+                     <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="10">
+                        <StackLayout Orientation="Horizontal" >
+                            <ContentView Margin="10" WidthRequest="75" HeightRequest="75" BackgroundColor="Black"></ContentView>                            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label Text="Cedric" TextColor="Black"></Label>
+                                    <Label Text="@cedricmillauriaux" TextColor="Black"></Label>
+                                    <Label Text="50s" TextColor="Gray" HorizontalOptions="EndAndExpand"></Label>
+                                </StackLayout>
+                                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod convallis dolor. Quisque ultricies porttitor nunc venenatis facilisis." TextColor="Black"></Label>
+                            </StackLayout>
+                    </StackLayout>
+                         
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Répondre" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"></Label>
+                        <Label Text="Retweet"  HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"></Label>
+                        <Label Text="Favoris"  HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"></Label>
+                    </StackLayout>
+                   
+                    <ContentView HeightRequest="0.5" BackgroundColor="WhiteSmoke" HorizontalOptions="FillAndExpand"></ContentView>
+               
+                </StackLayout>
+                
+            </StackLayout>
+            <!-- END CARD -->
         </ScrollView>
+        
+        <ContentView HeightRequest="0.5" BackgroundColor="WhiteSmoke" HorizontalOptions="FillAndExpand"></ContentView>
+        <StackLayout Orientation="Horizontal" WidthRequest="75" HeightRequest="75">
+            <Label Text="Fil" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="#58B0F0"></Label>
+            <Label Text="Notifications" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Messages" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+            <Label Text="Moi" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+        </StackLayout>
+        
     </StackLayout>
 
 </ContentPage>
