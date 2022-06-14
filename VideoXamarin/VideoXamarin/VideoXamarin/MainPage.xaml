@@ -4,23 +4,24 @@
              x:Class="VideoXamarin.MainPage"
              BackgroundColor="White">
 
-    <!--  demo 3 -->
+    <!--  demo 3/4 -->
     <StackLayout Orientation="Vertical">
         <Label Text="Connexion" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="LightGray" FontSize="20" FontAttributes="Bold"></Label>
         <Label Text="Pour se connecter à l'application, vous devez vous inscrire et vous identifier. En cas de problème, n'hésites pas à nous contacter par mail ou par téléphone!" 
                TextColor="Gray" LineBreakMode="WordWrap" HorizontalTextAlignment="Center"></Label>
-        <Entry Placeholder="Votre email" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" Keyboard="Email"></Entry>
-        <Entry Placeholder="Votre mot de passe" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" IsPassword="true"></Entry>
-        <Entry Placeholder="Votre code postal" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" Keyboard="Numeric" MaxLength="5"></Entry>
+        <Entry x:Name="email" Placeholder="Votre email" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" Keyboard="Email"></Entry>
+        <Entry x:Name="password" Placeholder="Votre mot de passe" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" IsPassword="true"></Entry>
+        <Entry x:Name="codePostal" Placeholder="Votre code postal" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" Keyboard="Numeric" MaxLength="5"></Entry>
         <StackLayout Orientation="Horizontal">
             <Label Text="Date de naissance" TextColor="LightGray" VerticalOptions="CenterAndExpand"></Label>
-            <DatePicker></DatePicker>
+            <DatePicker x:Name="dateNaissance" ></DatePicker>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Switch></Switch>
+            <Switch x:Name="seSouvenir" ></Switch>
             <Label Text="Se souvenir de moi" TextColor="LightGray" VerticalOptions="CenterAndExpand"></Label>
         </StackLayout>
-        <Button Text="Se connecter" HorizontalOptions="FillAndExpand"></Button>
+        <Label x:Name="erreur" TextColor="red" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" IsVisible="false"></Label>
+        <Button Text="Se connecter" HorizontalOptions="FillAndExpand" Clicked="SeConnecter_Clicked"></Button>
     </StackLayout>
      
     
