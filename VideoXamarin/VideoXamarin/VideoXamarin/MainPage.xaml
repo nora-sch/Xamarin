@@ -3,6 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VideoXamarin.MainPage">
 
+
+    <Grid ColumnSpacing="1" RowSpacing="1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <BoxView BackgroundColor="CadetBlue" Grid.Row="0" Grid.Column="0"></BoxView>
+        <BoxView BackgroundColor="Violet" Grid.Row="0" Grid.Column="1"></BoxView>
+        <BoxView BackgroundColor="DarkMagenta" Grid.Row="1" Grid.Column="0"></BoxView>
+        <BoxView BackgroundColor="Chartreuse" Grid.Row="1" Grid.Column="1"></BoxView>
+        <BoxView BackgroundColor="Aqua" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"></BoxView>
+    </Grid>
+    
+    
+    
+    
+    
+    
+  <!--  
     <StackLayout Orientation="Vertical">
         <StackLayout Orientation="Horizontal" BackgroundColor="Blue" VerticalOptions="FillAndExpand">
             <BoxView BackgroundColor="Yellow" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"></BoxView>
@@ -14,6 +38,7 @@
             <BoxView BackgroundColor="Green" VerticalOptions="FillAndExpand"></BoxView>
         </StackLayout>
     </StackLayout>
+  -->
     
 
 </ContentPage>
