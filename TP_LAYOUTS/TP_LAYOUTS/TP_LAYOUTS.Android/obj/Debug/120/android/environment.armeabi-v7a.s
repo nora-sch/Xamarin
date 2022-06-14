@@ -1309,7 +1309,7 @@ application_config:
 
 	.type	.L.autostr.6, %object
 .L.autostr.6:
-	.asciz	"1df8f446-ea69-4afa-b0fa-f98b55a1ba8c"
+	.asciz	"bdec3593-c995-476b-bc70-738be2eccf89"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, %object

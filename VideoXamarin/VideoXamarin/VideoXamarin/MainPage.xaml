@@ -1,8 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="VideoXamarin.MainPage">
+             x:Class="VideoXamarin.MainPage"
+             BackgroundColor="White">
 
+    <!--  demo 3 -->
+    <StackLayout Orientation="Vertical">
+        <Label Text="Connexion" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="LightGray" FontSize="20" FontAttributes="Bold"></Label>
+        <Label Text="Pour se connecter à l'application, vous devez vous inscrire et vous identifier. En cas de problème, n'hésites pas à nous contacter par mail ou par téléphone!" 
+               TextColor="Gray" LineBreakMode="WordWrap" HorizontalTextAlignment="Center"></Label>
+        <Entry Placeholder="Votre email" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" Keyboard="Email"></Entry>
+        <Entry Placeholder="Votre mot de passe" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" IsPassword="true"></Entry>
+        <Entry Placeholder="Votre code postal" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" Keyboard="Numeric" MaxLength="5"></Entry>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Date de naissance" TextColor="LightGray" VerticalOptions="CenterAndExpand"></Label>
+            <DatePicker></DatePicker>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Switch></Switch>
+            <Label Text="Se souvenir de moi" TextColor="LightGray" VerticalOptions="CenterAndExpand"></Label>
+        </StackLayout>
+        <Button Text="Se connecter" HorizontalOptions="FillAndExpand"></Button>
+    </StackLayout>
+     
+    
+    <!--  demo 2
     <Grid ColumnSpacing="1" RowSpacing="1">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"></RowDefinition>
@@ -19,8 +41,9 @@
         <BoxView BackgroundColor="Chartreuse" Grid.Row="1" Grid.Column="1"></BoxView>
         <BoxView BackgroundColor="Aqua" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"></BoxView>
     </Grid>   
+    -->
     
-   <!--  
+   <!--  demo 1
     <StackLayout Orientation="Vertical">
         <StackLayout Orientation="Horizontal" BackgroundColor="Blue" VerticalOptions="FillAndExpand">
             <BoxView BackgroundColor="Yellow" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"></BoxView>

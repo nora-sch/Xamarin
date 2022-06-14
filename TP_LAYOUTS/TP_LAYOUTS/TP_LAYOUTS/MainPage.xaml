@@ -8,19 +8,32 @@
         
         <ContentView BackgroundColor="#58B0F0">
             <StackLayout  Orientation="Horizontal" Margin="10, 25">
-                <Label Text="Nouveau" TextColor="White" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand"></Label>
-                <Label Text="Accueil" TextColor="White" VerticalTextAlignment="Center" HorizontalOptions="CenterAndExpand"></Label>
-                <Label Text="Rechercher" TextColor="White" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand"></Label>
+                <ImageButton Source="pencil.png" WidthRequest="25" BackgroundColor="Transparent"></ImageButton>
+                <Label Text="Accueil" TextColor="White" VerticalTextAlignment="Center" HorizontalOptions="CenterAndExpand" FontSize="20" FontAttributes="Bold"></Label>
+                <ImageButton Source="search.png" WidthRequest="25" BackgroundColor="Transparent"></ImageButton>
             </StackLayout>
         </ContentView>
        
         <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <!-- CARD -->
             <StackLayout Orientation="Vertical">
-                
-                     <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="10">
+            <!-- FORMULAIRE -->
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Connexion à Twitter" HorizontalOptions="CenterAndExpand" TextColor="Gray"></Label>
+                      <Entry Placeholder="Identifiant Twitter" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand"></Entry>
+                      <Entry Placeholder="Mot de passe" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" IsPassword="true"></Entry>
+                        <StackLayout Orientation="Horizontal">
+                            <Switch Margin="10"></Switch>
+                            <Label Text="Mémoriser mes informations" TextColor="LightGray" VerticalOptions="CenterAndExpand"></Label>
+                        </StackLayout>
+                    <Button Text="Se connecter" HorizontalOptions="FillAndExpand"></Button>
+                </StackLayout> 
+            <!-- END FORMULAIRE -->
+
+            <!-- CARD -->
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="10">
                         <StackLayout Orientation="Horizontal" >
-                            <ContentView Margin="10" WidthRequest="75" HeightRequest="75" BackgroundColor="Black"></ContentView>                            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                        <Image Source="https://picsum.photos/50" Margin="10" WidthRequest="75" Aspect="AspectFit"></Image>                            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
                                 <StackLayout Orientation="Horizontal" >
                                     <Label Text="Cedric" TextColor="Black"></Label>
                                     <Label Text="@cedricmillauriaux" TextColor="Black"></Label>
@@ -31,9 +44,9 @@
                     </StackLayout>
                          
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Répondre" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"></Label>
-                        <Label Text="Retweet"  HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"></Label>
-                        <Label Text="Favoris"  HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand"></Label>
+                        <ImageButton Source="respond.png" WidthRequest="25" HeightRequest="18" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand"></ImageButton>
+                        <ImageButton Source="retweet.png" WidthRequest="25" HeightRequest="18" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand"></ImageButton>
+                        <ImageButton Source="favorite.png" WidthRequest="25" HeightRequest="18" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand"></ImageButton>
                     </StackLayout>
                    
                     <ContentView HeightRequest="0.5" BackgroundColor="WhiteSmoke" HorizontalOptions="FillAndExpand"></ContentView>
@@ -42,6 +55,7 @@
                 
             </StackLayout>
             <!-- END CARD -->
+            </StackLayout>
         </ScrollView>
         
         <ContentView HeightRequest="0.5" BackgroundColor="WhiteSmoke" HorizontalOptions="FillAndExpand"></ContentView>
