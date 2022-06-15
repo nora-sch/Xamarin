@@ -17,20 +17,21 @@
         <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <StackLayout Orientation="Vertical">
             <!-- FORMULAIRE -->
-                <StackLayout Orientation="Vertical">
+                <StackLayout x:Name="form" Orientation="Vertical" IsVisible="true">
                     <Label Text="Connexion à Twitter" HorizontalOptions="CenterAndExpand" TextColor="Gray"></Label>
-                      <Entry Placeholder="Identifiant Twitter" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand"></Entry>
-                      <Entry Placeholder="Mot de passe" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" IsPassword="true"></Entry>
+                    <Entry x:Name="identifiant" Placeholder="Identifiant Twitter" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand"></Entry>
+                    <Entry x:Name="password" Placeholder="Mot de passe" PlaceholderColor="LightGray" HorizontalOptions="FillAndExpand" IsPassword="true"></Entry>
                         <StackLayout Orientation="Horizontal">
-                            <Switch Margin="10"></Switch>
+                        <Switch  x:Name="memo" Margin="10"></Switch>
                             <Label Text="Mémoriser mes informations" TextColor="LightGray" VerticalOptions="CenterAndExpand"></Label>
                         </StackLayout>
-                    <Button Text="Se connecter" HorizontalOptions="FillAndExpand"></Button>
+                    <Label x:Name="erreur" TextColor="red" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" IsVisible="false"></Label>
+                    <Button Text="Se connecter" HorizontalOptions="FillAndExpand" Clicked="SeConnecter_Clicked"></Button>
                 </StackLayout> 
             <!-- END FORMULAIRE -->
 
             <!-- CARD -->
-                <StackLayout Orientation="Vertical">
+                <StackLayout x:Name="cards" Orientation="Vertical" IsVisible="false" >
                     <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="10">
                         <StackLayout Orientation="Horizontal" >
                         <Image Source="https://picsum.photos/50" Margin="10" WidthRequest="75" Aspect="AspectFit"></Image>                            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
