@@ -5,7 +5,7 @@ using TP_LAYOUTS.models;
 
 namespace TP_LAYOUTS.services
 {
-    internal interface ITwitterService
+    public interface ITwitterService
     {
         bool authenticate(String key, String secret);
         List<Tweet> getTweets();

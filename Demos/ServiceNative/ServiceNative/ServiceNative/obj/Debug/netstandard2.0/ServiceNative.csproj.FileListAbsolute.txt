@@ -1,0 +1,15 @@
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\bin\Debug\netstandard2.0\ServiceNative.deps.json
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\bin\Debug\netstandard2.0\ServiceNative.dll
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\bin\Debug\netstandard2.0\ServiceNative.pdb
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\ServiceNative.csproj.AssemblyReference.cache
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\ServiceNative.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\ServiceNative.AssemblyInfoInputs.cache
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\ServiceNative.AssemblyInfo.cs
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\ServiceNative.csproj.CoreCompileInputs.cache
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\ServiceNative.dll
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\refint\ServiceNative.dll
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\ServiceNative.pdb
+C:\Xamarin_TP\ServiceNative\ServiceNative\ServiceNative\obj\Debug\netstandard2.0\ref\ServiceNative.dll

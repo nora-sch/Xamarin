@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uxoNjC87bEFRRqn6al6ggOB54EiWxC7Ay766BqrkuiCyyXhzDCbjUxY9eVFzKN31OQOqynXXuImJnam9GR2m/g==",
+  "success": true,
+  "projectFilePath": "C:\\Xamarin_TP\\ServiceNative\\ServiceNative\\ServiceNative.iOS\\ServiceNative.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\noras\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\noras\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\noras\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
