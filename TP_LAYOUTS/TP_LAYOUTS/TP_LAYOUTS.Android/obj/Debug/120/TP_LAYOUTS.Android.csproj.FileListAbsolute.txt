@@ -628,8 +628,3 @@ C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS.Andr
 C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS.Android\obj\Debug\120\res\drawable\pencil.png
-C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS.Android\obj\Debug\120\res\drawable\search.png
-C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS.Android\obj\Debug\120\res\drawable\favorite.png
-C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS.Android\obj\Debug\120\res\drawable\retweet.png
-C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\TP_LAYOUTS\TP_LAYOUTS\TP_LAYOUTS.Android\obj\Debug\120\res\drawable\respond.png

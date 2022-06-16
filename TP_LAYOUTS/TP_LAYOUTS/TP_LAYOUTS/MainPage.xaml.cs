@@ -13,6 +13,11 @@ namespace TP_LAYOUTS
         public MainPage()
         {
             InitializeComponent();
+            pencilImg.Source = ImageSource.FromResource("TP_LAYOUTS.Ressources.img.pencil.png");
+            searchImg.Source = ImageSource.FromResource("TP_LAYOUTS.Ressources.img.search.png");
+            respondImg.Source = ImageSource.FromResource("TP_LAYOUTS.Ressources.img.respond.png");
+            retweetImg.Source = ImageSource.FromResource("TP_LAYOUTS.Ressources.img.retweet.png");
+            favoriteImg.Source = ImageSource.FromResource("TP_LAYOUTS.Ressources.img.favorite.png");
         }
 
         public void SeConnecter_Clicked(object sender, EventArgs e)
@@ -33,14 +38,16 @@ namespace TP_LAYOUTS
             }
             if (!errors)
             {
-                cacher(form);
                 //this.form.IsVisible = false;
-                this.cards.IsVisible = true;
+                //this.cards.IsVisible = true;
+                afficher(cards);
+                cacher(form);
             }
             else
             {
-                this.form.IsVisible = true;
+                // this.form.IsVisible = true;
                 //this.cards.IsVisible = false;
+                afficher(form);
                 cacher(cards);
             }
 
@@ -58,8 +65,11 @@ namespace TP_LAYOUTS
         private void cacher(VisualElement objet)
         {
             objet.IsVisible = false;
-
         }
-        
+        private void afficher(VisualElement objet)
+        {
+            objet.IsVisible = true;
+        }
+
     }
 }
