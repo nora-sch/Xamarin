@@ -1,0 +1,15 @@
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\bin\Debug\netstandard2.0\DemoListes.deps.json
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\bin\Debug\netstandard2.0\DemoListes.dll
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\bin\Debug\netstandard2.0\DemoListes.pdb
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DemoListes.csproj.AssemblyReference.cache
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DemoListes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DemoListes.AssemblyInfoInputs.cache
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DemoListes.AssemblyInfo.cs
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DemoListes.csproj.CoreCompileInputs.cache
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DemoListes.dll
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\refint\DemoListes.dll
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DemoListes.pdb
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\ref\DemoListes.dll

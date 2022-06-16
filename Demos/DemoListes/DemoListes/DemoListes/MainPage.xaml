@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoListes.MainPage">
+
+    <ListView x:Name="ListeMusiques">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+               <!-- <ImageCell Text="{Binding Titre}" Detail="{Binding Auteur}" ImageSource="{Binding Pochette}"></ImageCell> -->
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="{Binding Pochette}" WidthRequest="50"></Image>
+                            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                <Label Text="{Binding Titre}" TextColor="DarkGray"> </Label>
+                                <Label Text="{Binding Auteur}" TextColor="LightGray"></Label>
+                            </StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="End" VerticalOptions="CenterAndExpand">
+                            <Label Text="{Binding Duree}" TextColor="LightGray"></Label>
+                            <Label Text="s" TextColor="LightGray"></Label>
+                        </StackLayout>
+                        
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>
