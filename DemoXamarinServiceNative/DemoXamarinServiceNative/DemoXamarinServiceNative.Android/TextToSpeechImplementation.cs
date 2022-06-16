@@ -30,7 +30,7 @@ namespace DemoXamarinServiceNative.Droid
             toSpeak = text;
             if(speaker == null)
             {
-                speaker = new TextToSpeech(Forms.Context as Activity, this);
+                speaker = new TextToSpeech(Android.App.Application.Context, this);
             }
             else
             {

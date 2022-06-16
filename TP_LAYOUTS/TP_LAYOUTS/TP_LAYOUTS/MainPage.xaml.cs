@@ -4,12 +4,14 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TP_LAYOUTS.services;
 using Xamarin.Forms;
 
 namespace TP_LAYOUTS
 {
     public partial class MainPage : ContentPage
     {
+        private services.ITwitterService twitterService = new TwitterService();
         public MainPage()
         {
             InitializeComponent();
@@ -22,8 +24,8 @@ namespace TP_LAYOUTS
 
         public void SeConnecter_Clicked(object sender, EventArgs e)
         {
-            bool errors = false;
             this.cacherErreur();
+            bool errors = false;
             if (this.identifiant.Text == null || string.IsNullOrEmpty(this.identifiant.Text.ToString()) || this.identifiant.Text.ToString().Length < 3)
             {
                 this.afficherErreur("Veuillez saisir un identifiant valide!");
@@ -36,7 +38,7 @@ namespace TP_LAYOUTS
                 this.afficherErreur("Veuillez saisir un mot de passe valide!");
                 return;
             }
-            if (!errors)
+            if (!errors && this.twitterService.authenticate(this.identifiant.Text, this.password.Text))
             {
                 //this.form.IsVisible = false;
                 //this.cards.IsVisible = true;
@@ -47,6 +49,7 @@ namespace TP_LAYOUTS
             {
                 // this.form.IsVisible = true;
                 //this.cards.IsVisible = false;
+                afficherErreur("Identifiants incorrects");
                 afficher(form);
                 cacher(cards);
             }
