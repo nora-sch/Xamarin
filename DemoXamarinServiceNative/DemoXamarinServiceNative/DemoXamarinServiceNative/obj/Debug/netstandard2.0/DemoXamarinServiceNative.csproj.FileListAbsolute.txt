@@ -1,0 +1,15 @@
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\bin\Debug\netstandard2.0\DemoXamarinServiceNative.deps.json
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\bin\Debug\netstandard2.0\DemoXamarinServiceNative.dll
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\bin\Debug\netstandard2.0\DemoXamarinServiceNative.pdb
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\DemoXamarinServiceNative.csproj.AssemblyReference.cache
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\DemoXamarinServiceNative.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\DemoXamarinServiceNative.AssemblyInfoInputs.cache
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\DemoXamarinServiceNative.AssemblyInfo.cs
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\DemoXamarinServiceNative.csproj.CoreCompileInputs.cache
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\DemoXamarinServiceNative.dll
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\refint\DemoXamarinServiceNative.dll
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\DemoXamarinServiceNative.pdb
+C:\Users\noras\Desktop\ENI\Xamarin\Demo_TP\DemoXamarinServiceNative\DemoXamarinServiceNative\DemoXamarinServiceNative\obj\Debug\netstandard2.0\ref\DemoXamarinServiceNative.dll

@@ -28,18 +28,20 @@ namespace TP_LAYOUTS
             if (this.password.Text == null || string.IsNullOrEmpty(this.password.Text.ToString()) || this.password.Text.ToString().Length < 6)
             {
                 errors = true;
-                this.afficherErreur("Veuillez saisir un password valide!");
+                this.afficherErreur("Veuillez saisir un mot de passe valide!");
                 return;
             }
             if (!errors)
             {
-                this.form.IsVisible = false;
+                cacher(form);
+                //this.form.IsVisible = false;
                 this.cards.IsVisible = true;
             }
             else
             {
                 this.form.IsVisible = true;
-                this.cards.IsVisible = false;
+                //this.cards.IsVisible = false;
+                cacher(cards);
             }
 
         }
@@ -51,6 +53,12 @@ namespace TP_LAYOUTS
         {
             this.erreur.IsVisible = true;
             this.erreur.Text = message;
+        }
+
+        private void cacher(VisualElement objet)
+        {
+            objet.IsVisible = false;
+
         }
         
     }
