@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DemoListes.MainPage">
 
-    <ListView x:Name="ListeMusiques">
+    <ListView x:Name="ListeMusiques" ItemSelected="ListeMusiques_ItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
                <!-- <ImageCell Text="{Binding Titre}" Detail="{Binding Auteur}" ImageSource="{Binding Pochette}"></ImageCell> -->

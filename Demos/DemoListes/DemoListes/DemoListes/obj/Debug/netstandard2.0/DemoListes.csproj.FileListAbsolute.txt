@@ -13,3 +13,4 @@ C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DemoList
 C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\refint\DemoListes.dll
 C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DemoListes.pdb
 C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\ref\DemoListes.dll
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes\obj\Debug\netstandard2.0\DetailsMusique.xaml.g.cs

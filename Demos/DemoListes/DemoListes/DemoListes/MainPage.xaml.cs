@@ -53,5 +53,11 @@ namespace DemoListes
                 Pochette = ImageSource.FromUri(new Uri("https://img.discogs.com/iZjJevL_oCH-iL7u0jhBWM_v_yw=/fit-in/595x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1740964-1384158788-7761.jpeg.jpg")) });
             this.ListeMusiques.ItemsSource = this.musiques;
         }     
+
+        private async void ListeMusiques_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var musique = (Musique)ListeMusiques.SelectedItem;
+            await Navigation.PushAsync(new DetailsMusique(musique));
+        }
     }
 }
