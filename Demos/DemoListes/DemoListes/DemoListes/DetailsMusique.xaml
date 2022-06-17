@@ -11,6 +11,12 @@
                 <Label x:Name="duree" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="DarkGray"></Label>
                 <Label Text="s" HorizontalOptions="Start" HorizontalTextAlignment="Center" TextColor="DarkGray"></Label>
             </StackLayout>
+            <Label x:Name="citation" 
+                   VerticalOptions="EndAndExpand" 
+                   HorizontalOptions="FillAndExpand" 
+                   HorizontalTextAlignment="Center"
+                   BackgroundColor="Black"
+                   TextColor="White"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

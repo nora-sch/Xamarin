@@ -21,6 +21,16 @@ namespace DemoListes
             this.auteur.Text = this.musique.Auteur;
             this.titre.Text = this.musique.Titre;
             this.duree.Text = this.musique.Duree.ToString();
+            getJoke();
+        }
+        private async void getJoke()
+        {
+            ChuckNorrisJokeService svc = new ChuckNorrisJokeService();
+            ChuckNorrisJoke joke = await svc.GetRandomJokeAsync();
+            if(joke != null)
+            {
+                this.citation.Text = joke.value;
+            }
         }
     }
 }

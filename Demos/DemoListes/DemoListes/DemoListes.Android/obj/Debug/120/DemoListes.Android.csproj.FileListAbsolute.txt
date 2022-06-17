@@ -628,3 +628,8 @@ C:\Xamarin_TP\DemoListes\DemoListes\DemoListes.Android\obj\Debug\120\stamp\_Conv
 C:\Xamarin_TP\DemoListes\DemoListes\DemoListes.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Xamarin_TP\DemoListes\DemoListes\DemoListes.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Xamarin_TP\DemoListes\DemoListes\DemoListes.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes.Android\obj\Debug\120\android\assets\Newtonsoft.Json.dll
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes.Android\obj\Debug\120\android\assets\System.Net.Http.Extensions.dll
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes.Android\obj\Debug\120\android\assets\System.Net.Http.Primitives.dll
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes.Android\obj\Debug\120\android\assets\System.Net.Primitives.dll
+C:\Xamarin_TP\DemoListes\DemoListes\DemoListes.Android\obj\Debug\120\android\assets\System.Runtime.InteropServices.dll
